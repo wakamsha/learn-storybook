@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "noImplicitAny": false, // https://github.com/storybookjs/storybook/issues/2435#issuecomment-360728957
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "rootDir": "./src"
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "exclude": ["node_modules"]
+}

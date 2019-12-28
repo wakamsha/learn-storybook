@@ -1,0 +1,8 @@
+{
+  "name": "@storybook-study/theme",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "start-storybook -s ../src/ -p 4000 --"
+  }
+}

@@ -57,6 +57,7 @@
   },
   "scripts": {
     "basic": "yarn workspace @storybook-study/basic",
-    "basic-ts": "yarn workspace @storybook-study/basic-ts"
+    "basic-ts": "yarn workspace @storybook-study/basic-ts",
+    "theme": "yarn workspace @storybook-study/theme"
   }
 }
