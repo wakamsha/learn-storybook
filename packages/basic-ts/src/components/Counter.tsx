@@ -20,10 +20,16 @@ export const Counter = ({ text, flag = false, action }: Props) => {
   return (
     <div>
       {flag ? <p>{text}</p> : null}
-      <button onClick={action}>ボタン</button>
+      <button onClick={action} type="button">
+        ボタン
+      </button>
       <p>count: {count}</p>
-      <button onClick={handleClickCountUp}>+</button>
-      <button onClick={handleClickCountDown}>-</button>
+      <button onClick={handleClickCountUp} type="button">
+        +
+      </button>
+      <button onClick={handleClickCountDown} type="button">
+        -
+      </button>
     </div>
   );
 };
